@@ -1,0 +1,158 @@
+.attribution { font-size: 11px; text-align: center; margin-top: 30px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Overpass', sans-serif;
+    background-color: #141519;
+    color: #fff;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FCFFFF;
+    margin-bottom: 16px;
+}
+
+.body-text {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #989FA9;
+}
+
+/* ============= RATE POP UP ============= */
+
+.rate-popUp {
+    width: 323px;
+    background-color: #1F2630;
+    border-radius: 10px;
+    padding: 24px;
+    display: unset;
+}
+
+.star-holder {
+    display: grid;
+    place-content: center;
+
+    width: 41px;
+    padding: 14px;
+    border-radius: 100%;
+    background-color: #262F38;
+    margin-bottom: 18px;
+}
+
+.rates {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0;
+}
+
+.rates div {
+    font-size: 14px;
+    font-weight: 700;
+
+    display: grid;
+    place-content: center;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #262F38;
+    color: #8C94A1;
+}
+
+.btn {
+    font-family: 'Overpass';
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.14em;
+    color: #FFFAE4;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+
+    display: inline-block;
+    background-color: #FC7613;
+    padding-top: 16px;
+    padding-bottom: 12px;
+    border-radius: 100px;
+    width: 100%;;
+    margin-bottom: 8px;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #fff;
+    color: #E97A29;
+    transition: all 0.1s ease-in-out;
+}
+
+.choosen {
+    background-color: #7E8798 !important;
+    color: #FBFFFF !important;
+}
+
+.rates div:hover, .rates div:focus {
+    background-color: #F87719;
+    color: #FFF8E3;
+    cursor: pointer;
+}
+
+/* ============= THANK YOU POP UP ============= */
+
+.thankYou-popUp {
+    display: none;
+    width: 323px;
+    background-color: #1F2630;
+    border-radius: 10px;
+    padding: 24px 24px 40px;
+    text-align: center;
+}
+
+.selected-rate {
+    display: inline-block;
+    margin: 24px;
+    background-color: #262F38;
+    padding: 10px 12px 8px;
+    border-radius: 100px;
+
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #C37743;
+}
+
+/* ============= DESKTOP QUERIES ============= */
+
+@media screen and (min-width: 800px) {
+    .rate-popUp, .thankYou-popUp {
+        width: 430px;
+        padding: 32px;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+    
+    .body-text {
+        font-size: 1rem;
+    }
+
+    .rates div {
+        font-size: 1rem;
+        width: 52px;
+        height: 52px;
+    }
+
+    .selected-rate {
+        font-size: 1rem;
+    }
+}
