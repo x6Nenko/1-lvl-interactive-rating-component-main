@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/mobilefirst-workflow-flex-grid-51FAHS49PX)
-- Live Site URL: [Add live site URL here](https://x6nenko.github.io/interactive-rating-component-main/)
+- Live Site URL: [Add live site URL here](https://x6nenko.github.io/1-lvl-interactive-rating-component-main/)
 
 ## My process
 
